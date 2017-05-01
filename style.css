@@ -1,0 +1,25 @@
+img	{
+	width: 80%;
+	height: auto;
+}
+
+.content{
+	color: red;
+}
+
+.container{
+	text-align: center;
+	font-family: 'Eagle Lake', cursive;
+	font-size: 35px;
+}
+
+.active{
+	font-family: 'Eagle Lake', cursive;
+	font-size: 20px;
+}
+
+.navbar-brand{
+	font-family: 'Eagle Lake', cursive;
+	font-size: 20px;
+
+}
