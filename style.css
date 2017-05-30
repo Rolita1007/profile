@@ -14,17 +14,17 @@ img	{
 	font-size: 35px;
 }
 
-.active{
+.active, .navbar-brand, .projects{
 	font-family: 'Eagle Lake', cursive;
 	font-size: 20px;
 }
 
-.navbar-brand{
+/*.navbar-brand{
 	font-family: 'Eagle Lake', cursive;
 	font-size: 20px;
 
 }
-
+*/
 .content{
 	border-top: 50px;
 	border-right: 25px;
