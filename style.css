@@ -1,44 +1,256 @@
-img	{
-	width: 80%;
-	height: auto;
+	.navbar {
+	font-family: 'Eagle Lake', cursive;
+	box-sizing: border-box;
+	background-color: #bdc0c5;
+	margin: 0px;
+	padding: 0px;
+	}
+
+bold {
+	color: aqua;
+	font-size: 25px;
 }
 
-
-.content{
-	color: red;
-}
-
-.container1{
+	h1 {
+	font-family: 'Eagle Lake', cursive;
 	text-align: center;
+	color: aqua;
+	font-size: 70px;
+	margin: -50px;
+}
+
+.parallax-bg {
+	padding: 200px;
+	background-image: url('http://gianlucaguarini.com/parallax/demo/img2.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: column;
 	font-family: 'Eagle Lake', cursive;
+	flex-wrap: wrap;
+	margin-bottom: 2px;
+}
+
+.aboutMe {
+	margin: 35px;
 	font-size: 35px;
+	color: gray;
 }
 
-.active, .navbar-brand, .projects{
+.aboutMeParagraph {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+h6 {
+	line-height: 2.5;
+	margin: 10px;
+	width: 70%;
+	font-size: 15px;
+}
+
+.profile-picture {
+	height: 155px;
+	width: 180px;
+	margin-top: 5px;
+	border-radius: 20px;
+	box-shadow: 5px 10px 10px 5px rgb(100, 100, 100);
+}
+
+button {
+	border-radius: 15%;
+	color: aqua;
 	font-family: 'Eagle Lake', cursive;
-	font-size: 20px;
+	margin-left: 550px;
+	margin-bottom: 50px;
+	height: 55px;
+	width: 90px;
+	box-shadow: 2px 3px 2px 3px rgb(100, 100, 100);
 }
 
-/*.navbar-brand{
-	font-family: 'Eagle Lake', cursive;
-	font-size: 20px;
-
-}
-*/
-.content{
-	border-top: 50px;
-	border-right: 25px;
-	border-bottom: 50px;
-	border-left: 25px;
-	font-size: 35px;
-	text-align: center;
-	background-color: lightgray;
-	font-family: 'Eagle Lake', cursive;
+.parallax-bg2 {
+	padding: 200px;
+	background-image: url('https://wallpaperscraft.com/image/mac_os_x_apple_mavericks_waves_wave_94219_1366x768.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	opacity: 0.7;
 }
 
-.container2{
-	width: 350px;
-	height: 915px;
-	margin-left: 15px;
-	border: 5px auto;
+.skills {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 60px;
+
 }
+
+.ruby {
+	width: 100px;
+	height: 80px;
+	margin-left: 25px;
+	margin-top: 25px;
+}
+
+.js {
+	width: 110px;
+	height: 90px;
+	margin-top: 115px;
+	margin-right: 30px;
+}
+
+.nodejs {
+	width: 150px;
+	height: 50px;
+	margin-top: 55px;
+	margin-right: 10px;
+}
+
+.angular {
+	width: 100px;
+	height: 80px;
+	margin-top: 115px;
+}
+
+.git {
+	width: 100px;
+	height: 80px;
+	margin-top: 25px;
+}
+
+.jquery {
+	width: 100px;
+	height: 90px;
+	margin-top: 115px;
+}
+
+.rails {
+	width: 180px;
+	height: 90px;
+	margin-top: 25px;
+}
+
+.github {
+	width: 110px;
+	height: 90px;
+	margin-top: 115px;
+}
+
+.mongo {
+	width: 80px;
+	height: 100px;
+	margin-top: 25px;
+	margin-right: 25px;
+}
+
+.parallax-bg3 {
+	background-image: url('https://storage.googleapis.com/blog-trekeffect/2015/02/GettyImages-482435224.jpg');
+	padding: 200px;
+	background-size: cover;
+	background-attachment: fixed;
+	opacity: 0.7;
+}
+
+.projects {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 60px;
+	margin-top: 50px;
+	margin-bottom: 60px;
+}
+
+.for-the-love-of-his-game {
+	width: 260px;
+	height: 240px;
+	margin-left: 45px;
+	box-shadow: 5px 10px 10px 5px rgb(100, 100, 100);
+}
+
+.vagabond {
+	width: 260px;
+	height: 240px;
+	box-shadow: 5px 10px 10px 5px rgb(100, 100, 100);
+}
+
+.motivate-me {
+	width: 260px;
+	height: 240px;
+	margin-right: 45px;
+	box-shadow: 5px 10px 10px 5px rgb(100, 100, 100);
+}
+
+.last-projects {
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	margin-bottom: 100px;
+}
+.curls {
+	width: 260px;
+	height: 240px;
+	box-shadow: 5px 10px 10px 5px rgb(100, 100, 100);
+}
+
+.hangman {
+	width: 260px;
+	height: 240px;
+	box-shadow: 5px 10px 10px 5px rgb(100, 100, 100);
+}
+
+a {
+	color: aqua;
+}
+
+footer {
+  display: flex;
+  background-color: #bdc0c5;
+  margin: 0;
+  padding-right: 30px;
+  padding-left: 20px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  font-size: 35px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-family: 'Eagle Lake', cursive;
+}
+
+@media screen and (max-width: 1110px), screen and (max-height: 650px) {
+
+.navbar {
+	height: auto:
+	min-height: 100vh;
+}
+
+..parallax-bg {}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

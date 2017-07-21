@@ -1,76 +1,110 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Eagle+Lake" rel="stylesheet">
-      <title>Fullstack Developer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Fullstack Developer</title>
   </head>
 
-<body>
-
-
+  <body>
     <nav class="navbar navbar-default">
       <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Yeni Nomezqui</a>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"></button>
+          <a class="navbar-brand" href="#"><bold>Yeni Nomezqui</bold></a>
         </div>
 
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="collapse-navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right" role="tablist">
-            <li class="active"><a href="#">About<span class="sr-only">(current)</span></a></li>
-            <li class="active"><a href="#">Skills<span class="sr-only">(current)</span></a></li>
-            <li class="active"><a href="#">Projects<span class="sr-only">(current)</span></a></li>
-            <li class="active"><a href="#">Contact<span class="sr-only">(current)</span></a></li>
+            <li class="active"><a href="#content2">Skills<span class="sr-only">(current)</span></a></li>
+            <li class="active"><a href="#content3">Projects<span class="sr-only">(current)</span></a></li>
+            <li class="active"><a href="mailto:yeni.nomezqui@gmail.com">Contact<span class="sr-only">(current)</span></a></li>
           </ul>
-          <ul class="nav navbar-nav navbar-right"></ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
+            <ul class="nav navbar-nav navbar-right"></ul>
+        </div>
+      </div>
     </nav>
 
-    <div class="container1">
-      <div class="row">
-        <div class="col-lg-12"></div>
-          <div id="content">
-            <h1>Fullstack Developer</h1>
-            <img src="img/profile.jpg">
-            <br>
-            <button class="btn btn-defaul btn-lg">Welcome</button>
+    <div class="content">
+      <div class="parallax-bg">
+        <h1>Fullstack Developer</h1>
+      </div>
+    </div>
+
+    <div class="flex-container">
+        <div class="aboutMe">
+          <p>About Me</p>
+        </div>
+        <div class="aboutMeParagraph">
+          <h6>I am a Full Stack Web Developer with a passion for technology and
+              ambitious to problem solve and enhance the user experience using
+              my technical skills. I want to be able to make a difference in
+              the world one step at a time.
+          </h6>
+          <img class="profile-picture"src="img/profile.pic.jpg">
           </div>
+        </div>
+    </div>
+
+    <a href="img/Yeni-Nomezqui-Resume.pdf">
+      <div><button>Resume</button></div>
+    </a>
+
+    <div id="content2">
+      <div class="parallax-bg2">
+        <h1>Skills</h1>
+      </div>
+    </div>
+
+    <div class="skills">
+      <img class="ruby" src="img/ruby.jpg">
+      <img class="js" src="img/js.jpg">
+      <img class="nodejs" src="img/nodejs.jpg">
+      <img class="angular" src="img/angular.jpg">
+      <img class="git" src="img/git.jpg">
+      <img class="jquery" src="img/jquery.jpg">
+      <img class="rails" src="img/rails.jpg">
+      <img class="github" src="img/github.jpg">
+      <img class="mongo" src="img/mongo.jpg">
+    </div>
+
+    <div id="content3">
+      <div class="parallax-bg3">
+        <h1>Projects</h1>
       </div>
     </div>
 
     <div class="projects">
-      <h1>Projects</h1>
+      <a href="https://peaceful-eyrie-66276.herokuapp.com/#!/">
+        <img class="for-the-love-of-his-game" src="img/for-the-love.jpg">
+      </a>
+      <a href="https://shielded-mountain-14432.herokuapp.com/">
+        <img class="vagabond" src="img/vagabond.jpg">
+      </a>
+      <a href="https://motivate-me-project.herokuapp.com/#!/quotes">
+        <img class="motivate-me" src="img/motivate-me.jpg">
+      </a>
     </div>
 
-    <div class="container2">
-      <div class="row">
-        <div class="col-lg-12"></div>
-          <div id="content">
-            <img src="img/connectfour.jpg">
-            <br>
-          </div>
-      </div>
+    <div class="last-projects">
+      <a href="https://lit-meadow-68495.herokuapp.com/">
+        <img class="curls" src="img/curls.jpg">
+      </a>
+      <a href="http://juggler-vivian-71626.bitballoon.com/">
+        <img class="hangman" src="img/hangman.jpg">
+      </a>
     </div>
-
-
 
 
     <footer>
-    <a src="https://www.linkedin.com/in/yeni-nomezqui-344137134/"></a>
-      <button><i class="fa fa-linkedin"></i></button>
+      <div><a href="https://github.com/Rolita1007" class="fa fa-github"></a></div>
+      <div><a href="https://www.linkedin.com/in/yeninomezqui/" class="fa fa-linkedin"></a></div>
+      <div><a href="https://twitter.com/Rolita1007" class="fa fa-twitter"></a></div>
     </footer>
 
-
-      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-</body>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
 </html>
