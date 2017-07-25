@@ -65,7 +65,10 @@ h6 {
 
 button {
 	border-radius: 15%;
-	color: aqua;
+	color: black;
+	background-color: aqua;
+	font-size: 17px;
+	text-align: left;
 	font-family: 'Eagle Lake', cursive;
 	margin-left: 550px;
 	margin-bottom: 50px;
@@ -88,7 +91,6 @@ button {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	margin-bottom: 60px;
-
 }
 
 .ruby {
@@ -146,7 +148,7 @@ button {
 	width: 80px;
 	height: 100px;
 	margin-top: 25px;
-	margin-right: 25px;
+	margin-right: 35px;
 }
 
 .parallax-bg3 {
@@ -225,17 +227,36 @@ footer {
   font-family: 'Eagle Lake', cursive;
 }
 
-@media screen and (max-width: 1110px), screen and (max-height: 650px) {
+@media screen and (max-width: 676px), screen and (max-height: 400px) {
 
-.navbar {
-	height: auto:
-	min-height: 100vh;
+h1 {
+	font-size: 30px;
+	text-align: center;
 }
 
-..parallax-bg {}
+button {
+	justify-content: left;
+	margin-left: 150px;
+	color: black;
+}
 
+.skills {
+	display: flex;
+	flex-direction: row;
+}
 
+.projects {
+	display: flex;
+	flex-direction: column;
+}
 
+.mongo {
+	margin-right: 70px;
+}
+
+.github {
+	margin-left: 75px;
+}
 
 }
 
