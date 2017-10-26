@@ -1,9 +1,10 @@
 .jumbotron {
 	background-image: url('https://wallpaperscraft.com/image/mac_os_x_apple_mavericks_waves_wave_94219_1366x768.jpg');
 	background-size: cover;
+	color: #bc177d;
 }
 
-.name {
+h1 {
 	font-family: 'Eagle Lake', cursive;
 	text-align: center;
 }
@@ -11,7 +12,7 @@
 .lead {
 	font-family: 'Eagle Lake', cursive;
 	font-size: 25px;
-	margin: 20px;
+	margin: 30px;
 	text-align: center;
 	color: #bc177d;
 }
@@ -19,10 +20,10 @@
 .header-nav {
 	display: flex;
 	flex-direcion: column;
+	align-items: flex-end;
 	justify-content: space-around;
 	font-size: 45px;
-	margin: 100px;
-	align-items: flex-end;
+	margin-top: 190px;
 }
 
 h3 {
@@ -57,6 +58,10 @@ h3 {
 	margin: 80px;
 }
 
+.skills {
+	margin-bottom: 75px;
+}
+
 .ruby, .js, .nodejs, .angular, .git, .jquery, .rails, .github, .mongo {
 	width: 100px;
 	height: 80px;
@@ -75,7 +80,7 @@ h3 {
 .aboutMe {
 	font-family: 'Dr Sugiyama', cursive;
 	text-decoration: underline;
-	margin: 35px;
+	margin: 5px;
 	padding: 20px;
 	font-size: 55px;
 	color: #bc177d;
@@ -94,6 +99,8 @@ h6 {
 	margin: 10px;
 	width: 70%;
 	font-size: 15px;
+	padding-right: 10px;
+	padding-left: 200px;
 }
 
 .profile-picture {
@@ -102,6 +109,7 @@ h6 {
 	margin-top: 5px;
 	border-radius: 20px;
 	box-shadow: 5px 10px 10px 5px rgb(100, 100, 100);
+	margin-right: 35px;
 }
 
 button {
@@ -111,7 +119,7 @@ button {
 	text-align: left;
 	font-family: 'Eagle Lake', cursive;
 	margin-left: 550px;
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 	height: 55px;
 	width: 90px;
 	box-shadow: 2px 3px 2px 3px #bc177d;
@@ -123,7 +131,7 @@ a {
 
 footer {
   display: flex;
-  background-color: #bdc0c5;
+  background-color: #474747;
   margin: 0;
   padding-right: 30px;
   padding-left: 20px;
