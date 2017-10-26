@@ -12,7 +12,7 @@ h1 {
 .lead {
 	font-family: 'Eagle Lake', cursive;
 	font-size: 25px;
-	margin: 30px;
+	margin: 15px;
 	text-align: center;
 	color: #bc177d;
 }
@@ -70,46 +70,30 @@ h3 {
 
 .flex-container-about-me {
 	background-color: #9AC0CD;
-	display: flex;
-	flex-direction: column;
-	font-family: 'Eagle Lake', cursive;
-	flex-wrap: wrap;
-	margin-bottom: 2px;
 }
 
-.aboutMe {
-	font-family: 'Dr Sugiyama', cursive;
-	text-decoration: underline;
-	margin: 5px;
-	padding: 20px;
-	font-size: 55px;
-	color: #bc177d;
-
-}
-
-.aboutMeParagraph {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
-}
-
-h6 {
-	line-height: 2.5;
-	margin: 10px;
-	width: 70%;
-	font-size: 15px;
-	padding-right: 10px;
-	padding-left: 200px;
-}
-
-.profile-picture {
+img {
 	height: 155px;
 	width: 180px;
-	margin-top: 5px;
 	border-radius: 20px;
 	box-shadow: 5px 10px 10px 5px rgb(100, 100, 100);
-	margin-right: 35px;
+	margin-left: 80px;
+	margin-bottom: 100px;
+}
+
+.about-me-section {
+	font-family: 'Yatra One', cursive;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+p {
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-top: 50px;
+	font-size: 25px;
 }
 
 button {
@@ -118,10 +102,12 @@ button {
 	font-size: 17px;
 	text-align: left;
 	font-family: 'Eagle Lake', cursive;
-	margin-left: 550px;
+	margin-right: 110px;
 	margin-bottom: 100px;
 	height: 55px;
 	width: 90px;
+	margin-top: 150px;
+
 	box-shadow: 2px 3px 2px 3px #bc177d;
 }
 
