@@ -19,11 +19,11 @@ h1 {
 
 .header-nav {
 	display: flex;
-	flex-direcion: column;
-	align-items: flex-end;
+	flex-direction: row;
+	align-items: center;
 	justify-content: space-around;
 	font-size: 45px;
-	margin-top: 190px;
+	margin-top: 180px;
 }
 
 h3 {
@@ -43,7 +43,7 @@ h3 {
 	justify-content: space-around;
 }
 
-.for-the-love-of-his-game, .vagabond, .motivate-me, .curls, .hangman {
+.for-the-love-of-his-game, .vagabond, .motivate-me {
 	width: 300px;
 	height: 300px;
 	margin: 20px;
@@ -58,118 +58,46 @@ h3 {
 	margin: 80px;
 }
 
-.skills {
-	margin-bottom: 75px;
-}
-
 .ruby, .js, .nodejs, .angular, .git, .jquery, .rails, .github, .mongo {
 	width: 100px;
 	height: 80px;
 	margin: 27px;
 }
 
-.flex-container-about-me {
-	background-color: #9AC0CD;
-}
-
-img {
-	height: 155px;
-	width: 180px;
-	border-radius: 20px;
-	box-shadow: 5px 10px 10px 5px rgb(100, 100, 100);
-	margin-left: 80px;
-	margin-bottom: 100px;
-}
-
 .about-me-section {
-	font-family: 'Yatra One', cursive;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+
+
+}
+
+#about-me-picture {
+	box-shadow: 5px 10px 10px 5px; 
+	border-radius: 100px;
+	padding: 8px;
+	margin-left: 45px;
 }
 
 p {
-	text-align: center;
-	padding-left: 50px;
-	padding-right: 50px;
-	margin-top: 50px;
-	font-size: 25px;
+	justify-content: center;
+	font-family: 'Yatra One', cursive;
+	font-size: 20px;
+	padding: 50px;
 }
 
 button {
+	display: flex;
+	position: absolute;
+	margin-left: 70vw;
+	margin-bottom: 5vh;
+	height: 55px;
+	width: 90px;
 	border-radius: 15%;
 	color: black;
 	font-size: 17px;
-	text-align: left;
-	font-family: 'Eagle Lake', cursive;
-	margin-right: 110px;
-	margin-bottom: 100px;
-	height: 55px;
-	width: 90px;
-	margin-top: 150px;
-
 	box-shadow: 2px 3px 2px 3px #bc177d;
+	font-family: 'Eagle Lake', cursive;
 }
 
 a {
 	color: aqua;
 }
 
-footer {
-  display: flex;
-  background-color: #474747;
-  margin: 0;
-  padding-right: 30px;
-  padding-left: 20px;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
-  font-size: 35px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  font-family: 'Eagle Lake', cursive;
-}
-
-/*@media only screen and (max-width: 1000px) {
-
-.navbar-default {
-	font-size: 40px;
-}
-h1 {
-	font-size: 30px;
-	text-align: center;
-}
-
-button {
-	font-size: 15px;
-	text-align: center;
-	justify-content: center;
-	height: 55px;
-}
-
-.navbar-right {
-	font-size: 25px;
-}
-
-.skills {
-	display: flex;
-	flex-direction: row;
-}
-
-.projects {
-	display: flex;
-	flex-direction: column;
-}
-
-.mongo {
-	margin-right: 70px;
-}
-
-.github {
-	margin-left: 75px;
-}
-
-}
-
-*/
