@@ -43,7 +43,7 @@ h3 {
 	justify-content: space-around;
 }
 
-.for-the-love-of-his-game, .vagabond, .motivate-me {
+.for-the-love-of-his-game, .vagabond, .motivate-me, .aos {
 	width: 300px;
 	height: 300px;
 	margin: 20px;
@@ -62,11 +62,6 @@ h3 {
 	width: 100px;
 	height: 80px;
 	margin: 27px;
-}
-
-.about-me-section {
-
-
 }
 
 #about-me-picture {

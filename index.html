@@ -2,11 +2,13 @@
 <html>
   <head>
     <link href="https://fonts.googleapis.com/css?family=Eagle+Lake" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Dr+Sugiyama" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Yatra+One" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
+    <script type="text/javascript" src="script.js"></script>
     <title>Fullstack Developer</title>
   </head>
 
@@ -26,7 +28,7 @@
 
     <h3>Check out what I've been up to</h3>
 
-    <div class="flex-container-projects" id="projects">
+    <div class="flex-container-projects" id="projects" data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
       <div class="box">
         <a href="https://motivate-me-project.herokuapp.com/#!/quotes">
           <img class="motivate-me" src="img/motivate-me.jpg">
@@ -40,6 +42,11 @@
       <div class="box">
         <a href="https://shielded-mountain-14432.herokuapp.com/">
           <img class="vagabond" src="img/vagabond.jpg">
+        </a>
+      </div>
+      <div class="box">
+        <a href="http://mycurls.bitballoon.com/">
+          <img class="aos" src="img/aos.jpg">
         </a>
       </div>
     </div>
@@ -62,20 +69,6 @@
 
     <h3>About me</h3>
     
-    <!-- <div class="flex-container-about-me">
-      <div class="about-me-section"> -->
-        <!-- <img class="profile-picture" src="img/profile.pic.jpg">
-        
-          <p>Hell there, my name is Yeni(Jenny) Nomezqui I am a Full Stack Web Developer with a passion for technology and
-          ambitious to problem solve and enhance the user experience using
-          my technical skills to make a difference in the world.
-          </p>
-        
-          <a href="img/Yeni-Nomezqui.pdf">
-            <button>Resume</button>
-          </a> -->
-    <!-- </div> -->
-
     <div class="about-me">
       <div class="about-me-section">
         <img id="about-me-picture" src="https://i.imgur.com/WJ3dtHN.jpg?1">
@@ -92,12 +85,15 @@
     </div>
 
     <div>
-        <a href="img/Yeni-Nomezqui.pdf">
-          <button>Resume</button>
-        </a>
-        </div>
-        
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <a href="img/Yeni-Nomezqui.pdf">
+        <button>Resume</button>
+      </a>
+    </div>
+  
+    <script src="bower_components/aos/dist/aos.js"></script>
+    
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   </body>
 </html>
