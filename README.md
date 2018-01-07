@@ -2,7 +2,7 @@
 
 #### Show casing my projects
 
-<img width="1148" alt="screen shot 2017-07-21 at 9 38 20 pm" src="https://user-images.githubusercontent.com/22422858/28487385-ff30496e-6e5c-11e7-813a-709b95acd727.png">
+<img width="1225" alt="screen shot 2018-01-07 at 6 07 56 pm" src="https://user-images.githubusercontent.com/22422858/34655345-cb70250a-f3d5-11e7-8ec8-6e0ef602c22f.png">
 
 ## Visit here:
 
